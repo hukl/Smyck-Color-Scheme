@@ -8,6 +8,7 @@ should not hurt the eyes even after a whole day of working.
 
 # Screenshots
 
+![Screenshot 1](http://smyck.org/smyck/color_1.jpg)
 
 # Disclaimer
 
