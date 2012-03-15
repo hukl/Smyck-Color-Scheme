@@ -12,8 +12,6 @@ should not hurt the eyes even after a whole day of working.
 
 ![Screenshot 2](http://smyck.org/smyck/color_2.jpg)
 
-![Screenshot 3](http://smyck.org/smyck/color_3.jpg)
-
 ![Screenshot 4](http://smyck.org/smyck/color_4.jpg)
 
 # Disclaimer
