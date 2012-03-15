@@ -3,7 +3,7 @@
 This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
 MacVim, Textmate and Sublime Text 2.
 
-The colors are carefully chosen and the contrasts are tunes so that it
+The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
 
 # Screenshots
