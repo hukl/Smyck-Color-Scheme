@@ -16,27 +16,27 @@ if exists("syntax_on")
   syntax reset
 endif
 
-hi Normal               cterm=none ctermbg=none     ctermfg=15      gui=none        guibg=#272727   guifg=#F7F7F7
-hi LineNr               cterm=none ctermbg=none     ctermfg=8       gui=none        guibg=#272727   guifg=#8F8F8F
+hi Normal               cterm=none ctermbg=none     ctermfg=15      gui=none        guibg=#2D2D2D   guifg=#F7F7F7
+hi LineNr               cterm=none ctermbg=none     ctermfg=8       gui=none        guibg=#2D2D2D   guifg=#8F8F8F
 hi StatusLine           cterm=none ctermbg=8        ctermfg=15      gui=none        guibg=#5D5D5D   guifg=#FBFBFB
 hi StatusLineNC         cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#5D5D5D   guifg=#FBFBFB
-hi Search               cterm=none ctermbg=6        ctermfg=15
-hi IncSearch            cterm=none ctermbg=3        ctermfg=8
-hi ColumnMargin         cterm=none ctermbg=0
-hi Error                cterm=none ctermbg=1        ctermfg=15
-hi ErrorMsg             cterm=none ctermbg=1        ctermfg=15
-hi NonText              cterm=bold ctermbg=none     ctermfg=8       gui=bold guifg=#898989 guibg=#060606
-hi ModeMsg              cterm=bold ctermbg=none     ctermfg=10
-hi Pmenu                cterm=none ctermbg=8        ctermfg=15
-hi PmenuSel             cterm=none ctermbg=15       ctermfg=8
-hi PmenuSbar            cterm=none ctermbg=15       ctermfg=8
-hi SpellBad             cterm=none ctermbg=1        ctermfg=15
-hi SpellCap             cterm=none ctermbg=4        ctermfg=15
-hi SpellRare            cterm=none ctermbg=4        ctermfg=15
-hi SpellLocal           cterm=none ctermbg=4        ctermfg=15
-hi Visual               cterm=none ctermbg=15       ctermfg=8
-hi Directory            cterm=none ctermbg=none     ctermfg=4
-hi SpecialKey           cterm=none ctermbg=none     ctermfg=8
+hi Search               cterm=none ctermbg=6        ctermfg=15      gui=none        guibg=#2EB5C1   guifg=#F7F7F7
+hi IncSearch            cterm=none ctermbg=3        ctermfg=8       gui=none        guibg=#F6DC69   guifg=#8F8F8F
+hi ColumnMargin         cterm=none ctermbg=0                        gui=none        guibg=#000000
+hi Error                cterm=none ctermbg=1        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi ErrorMsg             cterm=none ctermbg=1        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi NonText              cterm=bold ctermbg=none     ctermfg=8       gui=bold                        guifg=#8F8F8F
+hi ModeMsg              cterm=bold ctermbg=none     ctermfg=10      gui=none
+hi Pmenu                cterm=none ctermbg=8        ctermfg=15      gui=none        guibg=#8F8F8F   guifg=#F7F7F7
+hi PmenuSel             cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
+hi PmenuSbar            cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
+hi SpellBad             cterm=none ctermbg=1        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi SpellCap             cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi SpellRare            cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi SpellLocal           cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
+hi Visual               cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
+hi Directory            cterm=none ctermbg=none     ctermfg=4       gui=none
+hi SpecialKey           cterm=none ctermbg=none     ctermfg=8       gui=none                        guifg=#8F8F8F
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
@@ -58,7 +58,7 @@ hi Number               cterm=none ctermbg=none ctermfg=3           gui=none    
 hi Underlined           cterm=none ctermbg=none ctermfg=magenta     gui=underline   guibg=#272727
 hi Symbol               cterm=none ctermbg=none ctermfg=9           gui=none        guifg=#FAB1AB
 hi Method               cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
-hi Interpolation        cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#A9D500
+hi Interpolation        cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#2EB5C1
 
 hi link rubyBeginend          Keyword
 hi link rubyClass             Keyword
