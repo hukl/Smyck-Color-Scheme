@@ -230,7 +230,7 @@
 	AAAAAAAAAAAAAAAAAAAA1g==
 	</data>
 	<key>UseBoldFonts</key>
-	<false/>
+	<true/>
 	<key>UseBrightBold</key>
 	<true/>
 	<key>VisualBell</key>
@@ -377,6 +377,10 @@
 		<string>[5D</string>
 		<key>^F703</key>
 		<string>[5C</string>
+		<key>~F702</key>
+		<string>b</string>
+		<key>~F703</key>
+		<string>f</string>
 		<key>~F704</key>
 		<string>[17~</string>
 		<key>~F705</key>
