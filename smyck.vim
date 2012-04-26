@@ -39,6 +39,10 @@ hi SpellLocal           cterm=none ctermbg=4        ctermfg=15      gui=none    
 hi Visual               cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
 hi Directory            cterm=none ctermbg=none     ctermfg=4       gui=none
 hi SpecialKey           cterm=none ctermbg=none     ctermfg=8       gui=none                        guifg=#8F8F8F
+hi DiffAdd              cterm=bold ctermbg=2        ctermfg=15
+hi DiffChange           cterm=bold ctermbg=4        ctermfg=15
+hi DiffDelete           cterm=bold ctermbg=1        ctermfg=15
+hi DiffText             cterm=bold ctermbg=3        ctermfg=8
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
