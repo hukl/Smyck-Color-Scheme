@@ -1,7 +1,7 @@
 " ----------------------------------------------------------------------------
 " Vim color file
 " Maintainer:   John-Paul Bader <contact@smyck.org>
-" Last Change:  2012 March
+" Last Change:  2012 April
 " License:      Beer Ware
 " ----------------------------------------------------------------------------
 
@@ -16,8 +16,8 @@ if exists("syntax_on")
   syntax reset
 endif
 
-hi Normal               cterm=none ctermbg=none     ctermfg=15      gui=none        guibg=#202020   guifg=#F7F7F7
-hi LineNr               cterm=none ctermbg=none     ctermfg=8       gui=none        guibg=#202020   guifg=#8F8F8F
+hi Normal               cterm=none ctermbg=none     ctermfg=15      gui=none        guibg=#242424   guifg=#F7F7F7
+hi LineNr               cterm=none ctermbg=none     ctermfg=8       gui=none        guibg=#242424   guifg=#8F8F8F
 hi StatusLine           cterm=none ctermbg=8        ctermfg=15      gui=none        guibg=#5D5D5D   guifg=#FBFBFB
 hi StatusLineNC         cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#5D5D5D   guifg=#FBFBFB
 hi Search               cterm=none ctermbg=6        ctermfg=15      gui=none        guibg=#2EB5C1   guifg=#F7F7F7
@@ -37,19 +37,18 @@ hi SpellCap             cterm=none ctermbg=4        ctermfg=15      gui=none    
 hi SpellRare            cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
 hi SpellLocal           cterm=none ctermbg=4        ctermfg=15      gui=none                        guifg=#F7F7F7
 hi Visual               cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#F7F7F7   guifg=#8F8F8F
-hi Directory            cterm=none ctermbg=none     ctermfg=4       gui=none        guibg=#202020   guifg=#88CCE7
+hi Directory            cterm=none ctermbg=none     ctermfg=4       gui=none        guibg=#242424   guifg=#88CCE7
 hi SpecialKey           cterm=none ctermbg=none     ctermfg=8       gui=none                        guifg=#8F8F8F
 hi DiffAdd              cterm=bold ctermbg=2        ctermfg=15
 hi DiffChange           cterm=bold ctermbg=4        ctermfg=15
 hi DiffDelete           cterm=bold ctermbg=1        ctermfg=15
 hi DiffText             cterm=bold ctermbg=3        ctermfg=8
-hi MatchParen           cterm=none ctermbg=6        ctermbg=15      gui=none        guibg=#2EB5C1   guifg=#F7F7F7
-hi CursorLine           cterm=underline ctermbg=0   ctermbg=none    gui=none        guibg=#424242
+hi MatchParen           cterm=none ctermbg=6        ctermfg=15      gui=none        guibg=#2EB5C1   guifg=#F7F7F7
+hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
 " ----------------------------------------------------------------------------
-" Universelle Einstellungen
 hi Keyword              cterm=none ctermbg=none ctermfg=10          gui=none        guifg=#D1FA71
 hi Comment              cterm=none ctermbg=none ctermfg=8           gui=none        guifg=#8F8F8F
 hi Delimiter            cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
