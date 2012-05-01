@@ -45,6 +45,7 @@ hi DiffDelete           cterm=bold ctermbg=1        ctermfg=15
 hi DiffText             cterm=bold ctermbg=3        ctermfg=8
 hi MatchParen           cterm=none ctermbg=6        ctermfg=15      gui=none        guibg=#2EB5C1   guifg=#F7F7F7
 hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
+hi Title                cterm=none ctermbg=none     ctermfg=4       gui=none                        guifg=#88CCE7
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
@@ -53,13 +54,13 @@ hi Keyword              cterm=none ctermbg=none ctermfg=10          gui=none    
 hi Comment              cterm=none ctermbg=none ctermfg=8           gui=none        guifg=#8F8F8F
 hi Delimiter            cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
 hi Identifier           cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#96D9F1
-hi Structure            cterm=none ctermbg=none ctermfg=magenta     gui=none        guifg=#9DEEF2
-hi Ignore               cterm=none ctermbg=none ctermfg=magenta     gui=none        guifg=bg
+hi Structure            cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#9DEEF2
+hi Ignore               cterm=none ctermbg=none ctermfg=8           gui=none        guifg=bg
 hi Constant             cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#96D9F1
 hi PreProc              cterm=none ctermbg=none ctermfg=10          gui=none        guifg=#D1FA71
 hi Type                 cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#96D9F1
 hi Statement            cterm=none ctermbg=none ctermfg=10          gui=none        guifg=#D1FA71
-hi Special              cterm=none ctermbg=none ctermfg=magenta     gui=none        guifg=#d7d7d7
+hi Special              cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#d7d7d7
 hi String               cterm=none ctermbg=none ctermfg=3           gui=none        guifg=#F6DC69
 hi Number               cterm=none ctermbg=none ctermfg=3           gui=none        guifg=#F6DC69
 hi Underlined           cterm=none ctermbg=none ctermfg=magenta     gui=underline   guibg=#272727
