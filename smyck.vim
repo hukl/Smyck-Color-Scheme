@@ -63,7 +63,7 @@ hi Statement            cterm=none ctermbg=none ctermfg=10          gui=none    
 hi Special              cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#d7d7d7
 hi String               cterm=none ctermbg=none ctermfg=3           gui=none        guifg=#F6DC69
 hi Number               cterm=none ctermbg=none ctermfg=3           gui=none        guifg=#F6DC69
-hi Underlined           cterm=none ctermbg=none ctermfg=magenta     gui=underline   guibg=#272727
+hi Underlined           cterm=underline                             gui=underline
 hi Symbol               cterm=none ctermbg=none ctermfg=9           gui=none        guifg=#FAB1AB
 hi Method               cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
 hi Interpolation        cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#2EB5C1
