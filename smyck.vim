@@ -5,16 +5,16 @@
 " License:      Beer Ware
 " ----------------------------------------------------------------------------
 
-let g:colors_name = "smyck"
-
-highlight clear Normal
-set background=dark
-set linespace=2
-
-" Syntaxeinstellungen zuruecksetzen, wenn Syntax Highlighting aktiviert ist
+" Reset Highlighting
+hi clear
 if exists("syntax_on")
   syntax reset
 endif
+
+set background=dark
+set linespace=3
+
+let g:colors_name = "smyck"
 
 hi Normal               cterm=none ctermbg=none     ctermfg=15      gui=none        guibg=#282828   guifg=#F7F7F7
 hi LineNr               cterm=none ctermbg=none     ctermfg=8       gui=none        guibg=#282828   guifg=#8F8F8F
