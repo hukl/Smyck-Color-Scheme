@@ -47,6 +47,8 @@ hi MatchParen           cterm=none ctermbg=6        ctermfg=15      gui=none    
 hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
 hi CursorColumn         cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
 hi Title                cterm=none ctermbg=none     ctermfg=4       gui=none                        guifg=#88CCE7
+hi VertSplit            cterm=bold ctermbg=none     ctermfg=8       gui=bold        guibg=#282828   guifg=#8F8F8F
+hi SignColumn           cterm=bold ctermbg=none     ctermfg=8       gui=bold        guibg=#282828   guifg=#8F8F8F
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
