@@ -8,7 +8,7 @@ Open your 'Secure Shell' App. Enter ``user`` for username, and ``>crosh`` for ho
 
 To set the foreground/background of the terminal. ::
 
-  term_.prefs_.set('background-color', '#242424')
+  term_.prefs_.set('background-color', '#1C1C1C')
   term_.prefs_.set('foreground-color', '#FFFFFF')
 
 Crosh will automatically save this color theme setting under your current profile.
