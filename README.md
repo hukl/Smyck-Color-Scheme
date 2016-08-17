@@ -1,7 +1,4 @@
-# Smyck Color Scheme
-
-This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
-MacVim, Textmate and Sublime Text 2.
+# Vim Smyck Colorscheme
 
 The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
@@ -24,5 +21,3 @@ There is also an Eclipse adoption of this theme available at
 
 Once the final color map is done this repository will include a proper
 documentation.
-
-
