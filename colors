@@ -1,0 +1,16 @@
+0x00 (dark  black  ) #000000
+0x01 (dark  red    ) #C75646
+0x02 (dark  green  ) #8EB33B
+0x03 (dark  yellow ) #D0B03C
+0x04 (dark  blue   ) #72B3CC
+0x05 (dark  magenta) #C8A0D1
+0x06 (dark  cyan   ) #218693
+0x07 (dark  white  ) #B0B0B0
+0x10 (light black  ) #5D5D5D
+0x11 (light red    ) #E09690
+0x12 (light green  ) #CDEE69
+0x13 (light yellow ) #FFE377
+0x14 (light blue   ) #9CD9F0
+0x15 (light magenta) #FBB1F9
+0x16 (light cyan   ) #77DFD8
+0x17 (light white  ) #F7F7F7
