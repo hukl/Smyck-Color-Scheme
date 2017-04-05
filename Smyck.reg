@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+; Smyck color scheme
+; for Windows command prompt.
+
+; Values stored as 00-BB-GG-RR
+[HKEY_CURRENT_USER\Console]
+; DBLACK LBLACK
+"ColorTable00"=dword:00000000
+"ColorTable08"=dword:005D5D5D
+; DBLUE LBLUE
+"ColorTable01"=dword:00CCB372
+"ColorTable09"=dword:00F0D99C
+; DGREEN LGREEN
+"ColorTable02"=dword:003BB38E
+"ColorTable10"=dword:0069EECD
+; DCYAN LCYAN
+"ColorTable03"=dword:00938621
+"ColorTable11"=dword:00D8DF77
+; DRED LRED
+"ColorTable04"=dword:004656C7
+"ColorTable12"=dword:009096E0
+; DMAGENTA LMAGENTA
+"ColorTable05"=dword:00D1A0C8
+"ColorTable13"=dword:00F9B1FB
+; DYELLOW LYELLOW
+"ColorTable06"=dword:003CB0D0
+"ColorTable14"=dword:0077E3FF
+; DWHITE LWHITE
+"ColorTable07"=dword:00B0B0B0
+"ColorTable15"=dword:00F7F7F7
