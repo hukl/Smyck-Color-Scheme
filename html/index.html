@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Smyck Color Scheme</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="logo">
+        <img src="images/logo.jpg" alt="SMYCK Logo" />
+      </div>
+      <div class="color_row">
+        <div class="color" id="black"></div>
+        <div class="color" id="darkred"></div>
+        <div class="color" id="darkgreen"></div>
+        <div class="color" id="darkyellow"></div>
+        <div class="color" id="darkblue"></div>
+        <div class="color" id="darkmagenta"></div>
+        <div class="color" id="darkcyan"></div>
+        <div class="color" id="lightgray"></div>
+      </div>
+      <div class="color_row">
+        <div class="color" id="gray"></div>
+        <div class="color" id="red"></div>
+        <div class="color" id="green"></div>
+        <div class="color" id="yellow"></div>
+        <div class="color" id="blue"></div>
+        <div class="color" id="magenta"></div>
+        <div class="color" id="cyan"></div>
+        <div class="color" id="white"></div>
+      </div>
+      <div class="clear"></div>
+
+      <div id="color_code">
+
+      </div>
+
+      <h2>About</h2>
+      <p>
+        This is a color scheme for terminals and text editors to create a
+        homogenous work environment which is pleasant for the eyes.
+        The colors are carefully chosen and should work well in many
+        different situations.
+      </p>
+      <p>
+        The terminal settings will update the ANSI color definitions to allow the
+        vim theme to work in the terminal as well. This way your development
+        environment will look the same no matter if you work on your local or a
+        remote machine.
+      </p>
+      <p>
+        <strong>
+          NOTE: The theme is currently still under development and colors
+          may change a litte from time to time
+        </strong>
+        </p>
+
+      <h2>What is included?</h2>
+      <p>
+        The package currently includes settings for Terminal.app, iTerm2, Vim
+        and TextMate theme compatible editors like Sublime Text 2 and Chocolat.
+      </p>
+      <p>
+        I hope a port of the settings to common Linux/BSD terminals and editors
+        will follow in the not too distant future but right now my efforts are
+        focussed on OSX.
+      </p>
+
+      <h2>Instructions / Contribution</h2>
+      <p>
+        Please visit the <a href='https://github.com/hukl/Smyck-Color-Scheme/'>
+        Github  project page</a> for installation instructions and bug reporting
+        or contact me directly via <a href='http://twitter.com/hukl'>twitter</a>.
+      </p>
+      <p>
+        Contributions like ports to other terminals, editors, operating systems
+        and Feedback in general are more than welcome!
+      </p>
+
+      <h2>How to get it?</h2>
+      <p>
+        <a href='https://github.com/hukl/Smyck-Color-Scheme/zipball/master'>
+          Click here to download
+        </a>
+      </p>
+      <p>
+        Enough words, here are some example screenshots.
+      </p>
+      <div id='screenshots'>
+        <img class='screenshot' src='images/ruby.png' alt='Screenshot of ruby syntax highlighting' />
+        <img class='screenshot' src='images/erlang.png' alt='Screenshot of erlang syntax highlighting' />
+        <img class='screenshot' src='images/diff.png' alt='Screenshot of diff highlighting' />
+      </div>
+      <p>
+      The smyck color scheme is licensed under the
+      <a href="https://github.com/hukl/Smyck-Color-Scheme/blob/master/LICENSE">MIT License</a>
+      </p>
+    </div>
+
+    <script src="js/zepto.min.js"></script>
+    <script src="js/mcp.js"></script>
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.smyck.org/" : "http://stats.smyck.org/");
+      document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+      </script><script type="text/javascript">
+      try {
+        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 5);
+        piwikTracker.trackPageView();
+        piwikTracker.enableLinkTracking();
+      } catch( err ) {}
+    </script><noscript><p><img src="http://stats.smyck.org/piwik.php?idsite=5" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tracking Code -->
+  </body>
+</html>

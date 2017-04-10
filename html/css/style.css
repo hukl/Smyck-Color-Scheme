@@ -1,0 +1,162 @@
+/* first for IE 4–8 */
+@font-face {
+  font-family: AdvertWeb-Light;
+  src: url("../fonts/AdvertWeb-Light.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: AdvertWeb-Light;
+  src: url("../fonts/AdvertWeb-Light.woff") format("woff");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #242424;
+  text-align: center;
+  font-family: AdvertWeb-Light;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+a {
+  color: #9CD9F0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #72B3CC;
+}
+
+p {
+  padding-left: 30px;
+  padding-right: 10px;
+  color: #B0B0B0;
+}
+
+h1 {
+  color: #F7F7F7;
+  font-weight: normal;
+  font-size: 100px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  color: #B0B0B0;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 672px;
+  text-align: left;
+  position: relative;
+}
+
+#logo {
+  margin-left: 10px;
+  margin-bottom: 60px;
+}
+
+#color_code {
+  opacity: 0.0;
+  color: #5D5D5D;
+  padding-right: 10px;
+  font-size: 30px;
+  font-family: Menlo, Monaco, Courier, mono-spaced;
+  letter-spacing: 1px;
+  text-align: right;
+  height: 40px;
+}
+
+div#screenshots {
+  margin-top: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.color {
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+}
+
+.screenshot {
+  margin-left: -48px;
+}
+
+#black {
+  background-color: #000000;
+}
+
+#gray {
+  background-color: #5D5D5D;
+}
+
+#darkred{
+  background-color: #C75646;
+}
+
+#red {
+  background-color: #E09690;
+}
+
+#darkgreen {
+  background-color: #8EB33B;
+}
+
+#green {
+  background-color: #CDEE69;
+}
+
+#darkyellow {
+  background-color: #D0B03C;
+}
+
+#yellow {
+  background-color: #FFE377;
+}
+
+#darkblue {
+  background-color: #4E90A7;
+}
+
+#blue {
+  background-color: #9CD9F0;
+}
+
+#darkmagenta {
+  background-color: #C8A0D1;
+}
+
+#magenta {
+  background-color: #FBB1F9;
+}
+
+#darkcyan {
+  background-color: #218693;
+}
+
+#cyan {
+  background-color: #77DFD8;
+}
+
+#lightgray {
+  background-color: #B0B0B0;
+}
+
+#white {
+  background-color: #F7F7F7;
+}
+
