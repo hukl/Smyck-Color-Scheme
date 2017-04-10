@@ -25,4 +25,6 @@ There is also an Eclipse adoption of this theme available at
 Once the final color map is done this repository will include a proper
 documentation.
 
-
+Substantial portions of the Gnome Terminal script were borrowed from
+[gnome-terminal-colors-solarized](https://github.com/Anthony25/gnome-terminal-colors-solarized). See
+[LICENSE_gnome_terminal.md](LICENSE_gnome_terminal.md)

@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+# Set a Gnome Terminal color theme to smyck
+#
+# This only works in Gnome Terminal 3.8 and above
+
+# Check Gnome Terminal Version
+gnome_version="$(gnome-terminal --version | grep -o '[0-9][0-9.]*')"
+
+if [[ ("$(echo "$gnome_version" | cut -d"." -f1)" = "3" && \
+       "$(echo "$gnome_version" | cut -d"." -f2)" -lt 8) || \
+	  "$(echo "$gnome_version" | cut -d"." -f1)" -lt 3 ]]
+then
+    echo "This script only works on Gnome Terminal 3.8 and above" >&2
+    exit 1
+fi
+
+# Get all profiles
+dconfdir="/org/gnome/terminal/legacy/profiles:"
+profiles=($(dconf list "$dconfdir/" | grep "^:" | sed 's/\///g'))
+
+if [[ "${#profiles[@]}" -lt 1 ]]
+then  # No profiles, so create a new one
+    echo "Creating new Gnome Terminal profile 'Default'" >&2
+    
+    profile="$(uuidgen)"
+    dconf write $dconfdir/default "'$profile'"
+    dconf write $dconfdir/list "['$profile']"
+    profile_dir="$dconfdir/:$profile"
+    dconf write $profile_dir/visible-name "'Default'"
+
+elif [[ "${#profiles[@]}" -eq 1 ]]
+then  # Only one profile, so use it
+    profile="${profiles[0]}"
+
+else  # Select from several profiles
+    profile_names=()
+
+    for profile in "${profiles[@]}"
+    do
+	profile_names+=("$(dconf read $dconfdir/$profile/visible-name | sed s/^\'// | sed s/\'$//)")
+    done
+
+    echo "Please select a Gnome Terminal profile:"
+    select profile_name in "${profile_names[@]}"
+    do
+	if [[ -z $profile_name ]]
+	then
+	    echo "Error: Invalid selection" >&2
+	else
+	    profile_key=$((${REPLY} - 1))
+	    break
+	fi
+    done
+
+    profile="${profiles[${profile_key}]}"
+fi
+
+profile_path=$dconfdir/$profile
+
+# set color palette
+dconf write $profile_path/palette "['#000000', '#C75646', '#8EB33B', '#D0B03C', '#72B3CC', '#C8A0D1', '#218693', '#B0B0B0', '#5D5D5D', '#E09690', '#CDEE69', '#FFE377', '#9CD9F0', '#FBB1F9', '#77DFD8', '#F7F7F7']"
+
+# set foreground, background and highlight color
+dconf write $profile_path/background-color "'#1B1B1B'"
+dconf write $profile_path/foreground-color "'#F7F7F7'"
+
+# make sure the profile is set to not use theme colors
+dconf write $profile_path/use-theme-colors false
+
+# set highlighted color to be different from foreground color
+dconf write $profile_path/bold-color-same-as-fg true
