@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="6859" name="smyck" modified="2012-03-21 06:33:17" author="m42i" website="https://github.com/m42i/Smyck-Color-Scheme/">
+    <searchResultIndication color="#2EB5C1" />
+    <filteredSearchResultIndication color="#F6DC69" />
+    <occurrenceIndication color="#616161" />
+    <writeOccurrenceIndication color="#948567" />
+    <findScope color="#BCADAD" />
+    <sourceHoverBackground color="#5D5D5D" />
+    <singleLineComment color="#8F8F8F" bold="false" italic="false" />
+    <multiLineComment color="#8F8F8F" bold="false" italic="false" />
+    <commentTaskTag color="#ACC1AC" bold="false" />
+    <javadoc color="#B3B5AF" />
+    <javadocLink color="#A893CC" />
+    <javadocTag color="#9393CC" />
+    <javadocKeyword color="#CC9393" />
+    <class color="#9DEEF2" />
+    <interface color="#9DEEF2" />
+    <method color="#9DEEF2" />
+    <methodDeclaration color="#9DEEF2" />
+    <bracket color="#FFFFFF" />
+    <number color="#F6DC69" />
+    <string color="#F6DC69" />
+    <operator color="#F0EFD0" />
+    <keyword color="#D1FA71" />
+    <annotation color="#808080" />
+    <staticMethod color="#F7F7F7" />
+    <localVariable color="#D4C4A9" />
+    <localVariableDeclaration color="#D4C4A9" bold="false" />
+    <field color="#B3B784" bold="false" />
+    <staticField color="#93A2CC" bold="false" />
+    <staticFinalField color="#53DCCD" bold="false" />
+    <deprecatedMember color="#FFFFFF" bold="false" />
+    <constant color="#96D9F1" />
+    <background color="#2D2D2D" />
+    <currentLine color="#5D5D5D" />
+    <foreground color="#F7F7F7" />
+    <lineNumber color="#5D5D5D" />
+    <selectionBackground color="#F7F7F7" />
+    <selectionForeground color="#2D2D2D" />
+</colorTheme>
