@@ -1,0 +1,40 @@
+# Alacritty settings to emulate https://github.com/hukl/Smyck-Color-Scheme
+# Remember that the changes below require a restart of Alacritty.
+font:
+  normal:
+    family: Roboto Mono Light for Powerline
+    style: Light
+  size: 14.0
+  use_thin_strokes: true
+
+draw_bold_text_with_bright_colors: true
+
+# Colors (SMYCK)
+colors:
+  primary:
+    background: '0x232423'
+    foreground: '0xF8F8F8'
+    bright_foreground: '0xfeffff'
+
+  normal:
+    black:   '0x000000'
+    red:     '0xC75646'
+    green:   '0x8EB33B'
+    yellow:  '0xD0B03C'
+    blue:    '0x4E90A7'
+    magenta: '0xC8A0D1'
+    cyan:    '0x218693'
+    white:   '0xB0B0B0'
+
+  bright:
+    black:   '0x5D5D5D'
+    red:     '0xE09690'
+    green:   '0xCDEE69'
+    yellow:  '0xFFE377'
+    blue:    '0x9CD9F0'
+    magenta: '0xFBB1F9'
+    cyan:    '0x77DFD8'
+    white:   '0xF7F7F7'
+
+cursor:
+  style: Block
